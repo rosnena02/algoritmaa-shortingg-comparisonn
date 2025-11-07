@@ -1,0 +1,22 @@
+{
+  "name": "aplikasi-sorting-mahasiswa",
+  "version": "1.0.0",
+  "description": "Aplikasi sorting mahasiswa dengan berbagai algoritma",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "setup-db": "node scripts/setup-db.js"
+  },
+  "keywords": ["sorting", "algorithm", "mahasiswa"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "faker": "^5.5.3"
+  }
+}
+
+
